@@ -35,7 +35,7 @@ class Animal {
   }
 
   speak() {
-    console.log('...(無言)');
+    console.log("...(無言)");
   }
 }
 
@@ -51,5 +51,5 @@ class Person extends Animal {
 }
 
 // 課題2: Personクラスのインスタンスを実行して、speakメソッドを実行して、課題1のPersonクラスのspeakメソッドの①と②が出力されることを確認する
-const person = new Person('つよぽん');
+const person = new Person("つよぽん");
 person.speak();
